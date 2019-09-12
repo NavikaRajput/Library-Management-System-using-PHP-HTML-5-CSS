@@ -1,0 +1,61 @@
+.admintitle
+{
+    padding-top: 40px;
+    height : 100px;
+	background-color:#530602;
+	color:#ffff;
+}
+.admintitle h1
+{
+    font-family: verdana;
+    font-size: 50px;
+    margin : auto;
+}
+
+
+
+.dashboard
+{
+	background-color:#1DEEEF;
+	color:#000;
+	margin-left:50px;
+	margin-right:50px;
+	height:140px;
+	font-size:25px;
+}
+
+.vertical-menu {
+    margin-top: 145px;
+    
+     height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.vertical-menu a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.vertical-menu a:hover
+{
+  color: #f1f1f1;
+}
+.vertical-menu a.active 
+{
+  background-color: #4CAF50;
+  color: white;
+}
